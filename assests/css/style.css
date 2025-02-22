@@ -709,3 +709,34 @@ div#slider figure {
     border-radius: 10px;
     color: #6b6414 
 }
+#article .line{
+    background: #f6f6f2;
+    height: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1100px;
+    position: relative;
+}
+#article .line::before {
+    content: " ";
+    position: absolute;
+    background: #b2b2a6;
+    width: 5px;
+    height: 5px;
+    top: 50%;
+    rotate: 45deg;
+    right: 1102px;
+    transform: translateY(-70%);
+}
+#article .line::after {
+    content: " ";
+    position: absolute;
+    background: #b2b2a6;
+    width: 5px;
+    height: 5px;
+    top: 50%;
+    rotate: 45deg;
+    transform: translateY(-70%);
+    left: 1098px;
+}
