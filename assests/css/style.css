@@ -442,6 +442,10 @@ div#slider figure {
     color: #6e6e60;
     font-weight: 700;
 }
+#product .banner-button{
+    padding-top: 20%;
+    padding-right: 10%;
+}
 .more-button{
     display: flex;
     justify-content: center;
@@ -507,7 +511,46 @@ div#slider figure {
 #product .banner-product{
     background-image: url(../images/offerBgWeb.121d4b9b.webp);
     background-repeat: no-repeat;
+    background-position: 50% center;
+    background-size: 100% 100%;
+    margin-left: 12px;
+    height: 350px;
+    position: relative;
 }
+#product .banner-product::before{
+    content: " ";
+    position: absolute;
+    background-image: url(../images/offe-before.7245a0b5.webp);
+    width: 70%;
+    top: 80px;
+    left: 50px;
+    height: 40%;
+    animation: percent 1s ease-in-out infinite ;
+    background-repeat: no-repeat;
+    background-size: 85% 100%;
+}
+@keyframes percent{
+0% {
+    transform: scale(1);
+}
+50% {
+    transform: scale(1.1);
+}
+
+100% {
+    transform: scale(1);
+}
+}
+#product .banner-text{
+    padding-top: 85px;
+    padding-left: 15px;
+}
+#product .banner-text p{
+    font-weight: 900;
+    color: #f6f6f6;
+    font-size: 38px;
+}
+
 .banner-more-button{
     display: flex;
     justify-content: center;
