@@ -907,6 +907,10 @@ footer .social-icon{
     align-items: center;
     gap: 10%;
     padding-top: 15px;
+    cursor: pointer;
+}
+footer .social-icon svg:hover{
+    color: #9e0065;
 }
 footer .footer-about-container p{
     color: #57574b;
@@ -923,6 +927,10 @@ footer .footer-link-container h5{
 footer .footer-link-container p{
     color: #57574b;
     padding-bottom: 10px;
+    cursor: pointer;
+}
+footer .footer-border .footer-link-container p:hover{
+    color: #9e0065;
 }
 footer .footer-product-container{
     text-align: start;
@@ -936,6 +944,10 @@ footer .footer-product-container h5{
 footer .footer-product-container p{
     color: #57574b;
     padding-bottom: 10px;
+    cursor: pointer;
+}
+footer .footer-border .footer-product-container p:hover{
+    color: #9e0065;
 }
 footer .footer-call-container{
     text-align: start;
@@ -949,6 +961,13 @@ footer .footer-call-container h5{
 }
 footer .footer-call-container p{
     color: #57574b;
+    cursor: pointer;
+}
+footer .footer-call-container p:hover{
+    color: #9e0065;
+}
+footer .footer-call-container svg:hover{
+    color: #9e0065;
 }
 footer .call-div{
     display: flex;
@@ -983,6 +1002,7 @@ footer .enamad{
     border: 1px solid #0d6356;
     border-radius: 10px;
     padding: 5px 0;
+    cursor: pointer;
 }
 footer .enamad img{
     max-width: 100%;
@@ -1036,5 +1056,4 @@ footer .footer-law-div{
 footer .footer-law-div span{
     color: #9e0065;
 }
-
 
