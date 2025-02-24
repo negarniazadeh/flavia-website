@@ -666,7 +666,7 @@ div#slider figure {
 }
 
 #banner-cart{
-    padding-top: 4%;
+    padding-top: 5%;
 }
  #banner-cart .banner-cart-container{
     display: flex;
@@ -754,6 +754,37 @@ div#slider figure {
 #article{
     padding-top: 4%;
 }
+#article .line{
+    background: #f6f6f2;
+    height: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1100px;
+    position: relative;
+}
+#article .line::before {
+    content: " ";
+    position: absolute;
+    background: #b2b2a6;
+    width: 5px;
+    height: 5px;
+    top: 50%;
+    rotate: 45deg;
+    right: 1102px;
+    transform: translateY(-70%);
+}
+#article .line::after {
+    content: " ";
+    position: absolute;
+    background: #b2b2a6;
+    width: 5px;
+    height: 5px;
+    top: 50%;
+    rotate: 45deg;
+    transform: translateY(-70%);
+    left: 1098px;
+}
 .article-container{
     width: 90%;
     margin: auto;
@@ -782,6 +813,19 @@ div#slider figure {
     margin: auto;
     padding: 10px;
 }
+.article-image3{
+    width: 365px;
+    height: 365px;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+}
+.article-image3 img{
+    max-width: 100%; 
+    max-height: 100%;
+    height: auto;
+    width: auto;
+}
 .article-image img{
     max-width: 100%; 
     max-height: 100%;
@@ -793,7 +837,7 @@ div#slider figure {
     color: #404036;
     text-align: start;
     letter-spacing: 1px;
-    padding: 20px;
+    padding: 10px 20px;
 }
 .article-text p{
     font-size: 12px;
@@ -838,37 +882,7 @@ div#slider figure {
     border-radius: 10px;
     color: #6b6414 
 }
-#article .line{
-    background: #f6f6f2;
-    height: 1px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 1100px;
-    position: relative;
-}
-#article .line::before {
-    content: " ";
-    position: absolute;
-    background: #b2b2a6;
-    width: 5px;
-    height: 5px;
-    top: 50%;
-    rotate: 45deg;
-    right: 1102px;
-    transform: translateY(-70%);
-}
-#article .line::after {
-    content: " ";
-    position: absolute;
-    background: #b2b2a6;
-    width: 5px;
-    height: 5px;
-    top: 50%;
-    rotate: 45deg;
-    transform: translateY(-70%);
-    left: 1098px;
-}
+
 
 footer{
     padding-top: 5%;
