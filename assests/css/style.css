@@ -953,9 +953,9 @@ footer .footer-law-div span{
 
 
 #banner-cart{
-    padding-top: 5%;
+    padding-top: 4%;
 }
-#banner-cart .banner-cart-container{
+ #banner-cart .banner-cart-container{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -964,19 +964,75 @@ footer .footer-law-div span{
     text-align: center;
 }
 #banner-cart .banner{
-    width: 660px;
     height: 200px;
+    overflow: hidden;
     cursor: pointer;
-} 
-#banner-cart .banner:hover img{
-    transform: scale(1.1);
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    transition: transform 0.5s ease;
 }
 #banner-cart .banner img{
+    width: 660px;
+    height: 200px;
+} 
+.banner-cart-container .banner:hover img{
+    transform: scale(1.2);
+}
+
+
+#brands {
+    padding-top: 6%;
+}
+#brands .brands-tittle-container{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-direction: row;
+}
+#brands .brands-line1{
+    background: #57574b;
+    width: 40%;
+    height: 2px;
+}
+#brands .brands-line2{
+    background: #57574b;
+    width: 40%;
+    height: 2px;
+}
+#brands .brands-text h3{
+    color: #6e6e60;
+    font-weight: 700;
+    font-size: 25px;
+}
+#brands .brands-box-container{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 2%;
+}
+#brands .brands-box{
+    cursor: pointer;
+    width: 170px;
+    height: 150px;
+    border: 1px solid #f6f6f6;
+    box-shadow: 0 0 10px rgba(110, 110, 96, .1);
+    padding: 1rem;
+    border-radius: 5px;
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#brands .brands-box img{
     max-width: 100%;
     max-height: 100%;
     width: auto;
     height: auto;
-    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
-    border-radius: 15px;
-    transition: transform 0.3s ease;
 }
