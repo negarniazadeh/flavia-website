@@ -1125,3 +1125,33 @@ footer .footer-law-div span{
 .login-container button:hover{
     box-shadow: 0px 0px 10px 0px rgba(175, 165, 52, 0.3); 
 }
+
+
+
+
+/* about page  */
+
+#about{
+    padding-top: 270px;
+}
+#about .about-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 8%;
+    width: 80%;
+    margin: auto;
+}
+#about .about-text h2{
+    color: #9e0065;
+    font-size: 48px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+#about .about-text p{
+    color: rgb(110, 110, 96);
+    text-align: justify;
+    font-size: 16px;
+    padding-bottom: 15px;
+    font-weight: bold;
+}
