@@ -685,14 +685,14 @@ div#slider figure {
     cursor: pointer;
     box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
     border-radius: 15px;
-    transition: transform 0.5s ease;
+    transition: transform 0.5s ease-in;
 }
 #banner-cart .banner img{
     width: 660px;
     height: 200px;
 } 
 .banner-cart-container .banner:hover img{
-    transform: scale(1.2);
+    transform: scale(1.05);
 }
 
 
@@ -712,12 +712,12 @@ div#slider figure {
 #brands .brands-line1{
     background: #57574b;
     width: 40%;
-    height: 2px;
+    height: 1px;
 }
 #brands .brands-line2{
     background: #57574b;
     width: 40%;
-    height: 2px;
+    height: 1px;
 }
 #brands .brands-text h3{
     color: #6e6e60;
@@ -1154,4 +1154,157 @@ footer .footer-law-div span{
     font-size: 16px;
     padding-bottom: 15px;
     font-weight: bold;
+}
+
+
+/*  call page  */
+
+#call{
+    padding-top: 190px;
+}
+#call .call-container{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+#call .icone{
+    background: #afa534;
+    border-radius: 50%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    color: #fff;
+    font-size: 20px;
+    margin: 20px 0;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+#call .icone:hover{
+    background: #9e0065;
+}
+#call .phone{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#call .phone a{
+     color: #404036;
+     text-decoration: none;
+     font-size: 14px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 3px;
+}
+#call .phone span{
+    font-weight: bold;
+}
+#call .social-media{
+    margin-right: 30px;
+}
+#call .social-media h2{
+    text-align: center;
+    font-weight: 700;
+    color: #57574b;
+    letter-spacing: 1px;
+}
+#call .social-media-icone{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 40px;
+}
+#call .call-container-left{
+    width: 45%;
+}
+#call .call-container-left h2{
+    color: #6e6e60;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding-bottom: 20px;
+}
+#call form{
+    padding-right: 20px;
+}
+#call .lable{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+#call .text-container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 5%;
+}
+#call label{
+    color: #5e5873;
+    font-size: .857rem;
+    font-weight: 600;
+    padding-bottom: 5px;
+}
+#call textarea{
+    width: 100%;
+    padding: .438rem 1rem;
+    color: #6e6b7b;
+    font-weight: 400;
+    font-size: 14px;
+    border: 1px solid #d8d6de;
+    border-radius: .357rem;
+    background: #fafafa;
+    transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+#call textarea:focus{
+    border-color: #afa534; 
+    box-shadow: 0px 0px 10px 0px rgba(175, 165, 52, 0.3); 
+    outline: none; 
+}
+#call .textarea-lable{
+    color: #5e5873;
+    font-size: .857rem;
+    font-weight: 600;
+    padding-bottom: 5px;
+}
+#call i{
+    color: #cd1e04;
+    font-size: 8px;
+}
+#call input{
+    width: 100%;
+    padding: .438rem 1rem;
+    color: #6e6b7b;
+    font-weight: 400;
+    font-size: 14px;
+    border: 1px solid #d8d6de;
+    border-radius: .357rem;
+    background: #fafafa;
+    transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+#call input:focus{
+    border-color: #afa534; 
+    box-shadow: 0px 0px 10px 0px rgba(175, 165, 52, 0.3); 
+    outline: none; 
+}
+#call .flex{
+    width: 100%;
+}
+#call .call-container-left button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    border:1px solid #afa534 ;
+    background-color: #afa534;
+    border-radius: .357rem;
+    color: #fff;
+    padding: 10px;
+    width: 100%;
+    font-weight: bold;
+    cursor: pointer;
 }
