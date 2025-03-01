@@ -1065,12 +1065,13 @@ footer .footer-law-div span{
 /* login page style */
 
 #login-section{
-    padding-top: 220px;
+    padding-top: 290px;
 }
 .login-container{
     display: flex;
     flex-direction: column;
-    width: 35%;
+    width: 40%;
+    padding: 20px 10px;
     margin: auto;
     text-align: center;
     box-shadow: 0 5px 20px 0 rgba(34, 41, 47, .1);
@@ -1095,7 +1096,7 @@ footer .footer-law-div span{
     color: #5e5873;
     font-size: 14px;
     font-weight: 500;
-    margin: 5px 0;
+    margin: 15px 0;
 }
 .login-container input{
     padding: 10px;
@@ -1103,7 +1104,7 @@ footer .footer-law-div span{
     border-radius: .357rem;
     transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
     width: 100%;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 .login-container input:focus{
     border-color: #afa534; 
