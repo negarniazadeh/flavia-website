@@ -912,18 +912,17 @@ footer .footer-border{
     padding-top: 2%;
 }
 footer .footer-container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     width: 90%;
     margin: auto;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 60px;
     text-align: center;
-    gap: 50px;
     border-bottom: 2px solid #0d6356;
 }
 footer .footer-about-container{
     text-align: start;
-    margin-bottom: 35%;
+    grid-column: 1/4;
 }
 footer .footer-about-container h5{
     color: #57574b;
@@ -950,6 +949,7 @@ footer .footer-about-container p{
 }
 footer .footer-link-container{
     text-align: start;
+    grid-column: 4/6;
 }
 footer .footer-link-container h5{
     color: #57574b;
@@ -967,6 +967,7 @@ footer .footer-border .footer-link-container p:hover{
 footer .footer-product-container{
     text-align: start;
     margin-bottom: 175px;
+    grid-column: 6/8;
 }
 footer .footer-product-container h5{
     color: #57574b;
@@ -985,6 +986,7 @@ footer .footer-call-container{
     text-align: start;
     color: #57574b;
     margin-bottom: 220px;
+    grid-column: 8/10;
 }
 footer .footer-call-container h5{
     color: #57574b;
@@ -1012,6 +1014,7 @@ footer .footer-trust-container{
     text-align: start;
     margin-bottom: 135px;
     margin-right: 50px;
+    grid-column: 10/13;
 }
 footer .footer-trust-container h5{
     color: #57574b;
