@@ -181,7 +181,7 @@ header nav{
     position: absolute;
     display: none;
     background: #ffe8f6;
-    box-shadow:  0px 0px 45px 20px rgba(135, 126, 133, 0.3);
+    box-shadow:  0px 0px 10px 8px rgba(135, 126, 133, 0.3);
     z-index: 1;
     min-width: 230px ;
     height: 180px;
@@ -544,8 +544,9 @@ div#slider figure {
     background-repeat: no-repeat;
     background-position: 50% center;
     background-size: 100% 100%;
-    margin-left: 12px;
+    margin-left: 20px;
     height: 354px;
+    width: 100%;
     position: relative;
 }
 #product .banner-product::before{
@@ -609,6 +610,7 @@ div#slider figure {
     justify-content: center;
     align-items: center;
     gap: 8px;
+    padding-right: 10px;
 }
 #product .product-image{
     width: 280px;
@@ -838,17 +840,17 @@ div#slider figure {
     transition: transform 0.5s ease-in-out;
 }
 .article-image{
-    width: 360px;
-    height: 360px;
-    text-align: center;
-    margin: auto;
+    width: 100%;
+    height: 100%;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
     padding: 10px;
 }
 .article-image img{
-    max-width: 100%; 
-    max-height: 100%;
-    height: auto;
-    width: auto;
+    width: 100%;
+    height: 100%;
+    object-fit: contain; 
 }
 .article-title h5{
     font-size: 15px;
@@ -864,6 +866,7 @@ div#slider figure {
     text-align: start;
 }
 .article-more-button{
+    cursor: pointer;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1096,7 +1099,11 @@ footer .footer-law-div span{
 /* login page style */
 
 #login-section{
-    padding-top: 290px;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .login-container{
     display: flex;
@@ -1109,6 +1116,27 @@ footer .footer-law-div span{
     border: 1px solid rgba(34, 41, 47, .2);
     border-radius: .358rem;
     overflow: hidden;
+}
+.exist-button{
+    position: absolute;
+    right: 68.5%;
+    top: 31%;
+}
+.login-container .exist{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #afa534;
+    border:1px solid #afa534;
+    border-radius: .357rem;
+    width: 35px;
+    height: 30px;
+    cursor: pointer;
+}
+.login-container .exist a{
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
 }
 .login-container h5{
     color: #afa534 ;
@@ -1142,7 +1170,7 @@ footer .footer-law-div span{
     box-shadow: 0px 0px 10px 0px rgba(175, 165, 52, 0.3); 
     outline: none; 
 }
-.login-container button{
+.login-container .check{
     background-color: #afa534;
     color: #fff;
     border:1px solid #afa534;
