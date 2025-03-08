@@ -46,6 +46,9 @@ header .hambergur-menu{
 header .search-icone{
     display: none;
 }
+header .login{
+    display: none;
+}
 .container{
     display: grid;
     grid-template-columns: repeat(12,1fr);
@@ -1415,6 +1418,23 @@ footer .footer-law-div span{
         height: 36px;
         grid-column: 1/2;
     }
+    header .login{
+        display: block;
+        cursor: pointer;
+        display: block;
+        background: #c7007f;
+        border: 1px solid #c7007f;
+        border-radius: 5px;
+        padding: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 36px;
+        height: 36px;
+    }
+    header .login i{
+        color: #fff;
+    }
     header .search-icone{
         cursor: pointer;
         display: block;
@@ -1603,6 +1623,36 @@ footer .footer-law-div span{
         footer .footer-trust-container {
            margin: 0px;
            margin-bottom: 30px;
+        }
+
+
+        #about {
+            padding-top: 150px;
+        }
+        #about .about-container {
+           flex-direction: column;
+        }
+
+
+        #call {
+            padding-top: 130px;
+        }
+        #call .call-container {
+            flex-direction: column;
+            gap: 30px;
+        }
+        #call .call-container-left {
+            width: 100%;
+        }
+
+
+        .login-container {
+            width: 80%;
+        }
+        .exist-button {
+            position: absolute;
+            right: 85.5%;
+            top: 29%;
         }
       
     }
