@@ -1135,7 +1135,7 @@ footer .footer-law-div span{
 .exist-button{
     position: absolute;
     right: 68.5%;
-    top: 31%;
+    top: 25%;
 }
 .login-container .exist{
     display: flex;
@@ -1170,7 +1170,7 @@ footer .footer-law-div span{
     color: #5e5873;
     font-size: 14px;
     font-weight: 500;
-    margin: 15px 0;
+    margin: 5px 0;
 }
 .login-container input{
     padding: 10px;
@@ -1199,6 +1199,15 @@ footer .footer-law-div span{
 }
 .login-container button:hover{
     box-shadow: 0px 0px 10px 0px rgba(175, 165, 52, 0.3); 
+}
+
+
+/* signup page  */
+
+.exist-button-signup{
+    position: absolute;
+    right: 68.5%;
+    top: 11%;
 }
 
 
@@ -1652,7 +1661,12 @@ footer .footer-law-div span{
         .exist-button {
             position: absolute;
             right: 85.5%;
-            top: 29%;
+            top: 25%;
+        }
+        .exist-button-signup{
+            position: absolute;
+            right: 85.5%;
+            top: 11%;
         }
       
     }

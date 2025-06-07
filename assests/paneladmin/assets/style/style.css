@@ -1,0 +1,33 @@
+body{
+    direction: rtl;
+}
+.header .d-flex {
+    justify-content: flex-end;
+}
+.search-bar{
+    text-align: center;
+}
+.header .search-form button {
+   z-index: 1;
+}
+.header .search-form input {
+   text-align: center;
+}
+.card{
+    text-align: center;
+    width: 90%;
+    margin: auto;
+}
+#sidebar{
+    direction: ltr;
+}
+.modal-header {
+    justify-content: space-between;
+    gap: 80%;
+}
+.pagetitle{
+    text-align: end;
+}
+nav .breadcrumb{
+    justify-content: end;
+}
