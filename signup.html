@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assests/css/style.css">
-    <title>login</title>
+    <title>signup</title>
 </head>
 <body>
     
@@ -12,17 +12,21 @@
 
     <section id="login-section"> 
         <div class="login-container">
-            <div class="exist-button">
+            <div class="exist-button-signup">
                 <button class="exist"><a href="./index.html"><i class="fa-solid fa-xmark"></i></a></button>
             </div>
-            <h5>ورود  به حساب  کاربری</h5>
+            <h5>  ایجاد حساب  کاربری</h5>
             <form>
+                <label>نام </label>
+                <input id="name" type="text">
+                <label>نام خانوادگی</label>
+                <input id="family" type="text">
                 <label>نام کاربری</label>
-                <input id="username" type="text">
+                <input id="signup-username" type="text">
                 <label>رمز عبور  </label>
-                <input id="password" type="text">
+                <input id="signup-password" type="text">
             </form>
-            <button onclick="find()" class="check">بررسی</button>
+            <button onclick="succeed()" class="check">ثبت  نام</button>
         </div>
     </section>
 
